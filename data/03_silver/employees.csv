@@ -1,0 +1,5 @@
+employee_id,full_name,department,salary,hire_date,internal_notes
+101,Alice Johnson,engineering,95000,2021-03-15,top performer
+102,Bob Smith,sales,72000,2020-07-01,
+103,Carla Diaz,engineering,88000,2022-01-10,remote
+104,David Lee,marketing,68000,2023-11-20,

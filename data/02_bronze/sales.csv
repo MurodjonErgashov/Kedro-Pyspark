@@ -1,0 +1,6 @@
+order_id,customer_name,product,quantity,unit_price,order_date,notes
+1.0,  Acme Corp ,Widget,10,25.5,2023-01-15,priority
+2.0,Globex Inc,GADGET,5,12.0,2023-02-20,
+3.0, Initech LLC,Widget,20,25.5,2023-03-05,bulk order
+,Bad Row,Unknown,0,0.0,2022-01-01,"bad data, should be dropped"
+4.0,Umbrella Co ,gizmo,8,40.0,2023-04-10,

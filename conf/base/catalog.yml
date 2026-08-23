@@ -1,0 +1,50 @@
+# --- employees ---
+raw_employees:
+  type: pandas.ExcelDataset
+  filepath: data/01_raw/employees.xlsx
+
+bronze_employees:
+  type: pandas.CSVDataset
+  filepath: data/02_bronze/employees.csv
+
+silver_employees:
+  type: pandas.CSVDataset
+  filepath: data/03_silver/employees.csv
+
+gold_employees:
+  type: pandas.CSVDataset
+  filepath: data/04_gold/employees.csv
+
+# --- sales ---
+raw_sales:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/sales.csv
+
+bronze_sales:
+  type: pandas.CSVDataset
+  filepath: data/02_bronze/sales.csv
+
+silver_sales:
+  type: pandas.CSVDataset
+  filepath: data/03_silver/sales.csv
+
+gold_sales:
+  type: pandas.CSVDataset
+  filepath: data/04_gold/sales.csv
+
+# --- inventory ---
+raw_inventory:
+  type: pandas.JSONDataset
+  filepath: data/01_raw/inventory.json
+
+bronze_inventory:
+  type: pandas.CSVDataset
+  filepath: data/02_bronze/inventory.csv
+
+silver_inventory:
+  type: pandas.CSVDataset
+  filepath: data/03_silver/inventory.csv
+
+gold_inventory:
+  type: pandas.CSVDataset
+  filepath: data/04_gold/inventory.csv
