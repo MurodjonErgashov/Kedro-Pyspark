@@ -1,0 +1,5 @@
+kedro[jupyter]~=1.5.0
+kedro-datasets[pandas-csvdataset, pandas-exceldataset, pandas-jsondataset]>=3.0
+jupyterlab>=4.0
+papermill>=2.5
+kedro-viz>=9.0

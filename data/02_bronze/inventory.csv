@@ -1,0 +1,6 @@
+item_id,item_name,category,stock_count,warehouse,last_updated,notes
+201.0,  Steel Bolt ,hardware,500,WH-1,2023-01-10,restocked
+202.0,Copper Wire,ELECTRICAL,150,WH-2,2023-02-15,
+203.0, Rubber Gasket,hardware,300,WH-1,2023-03-01,low stock
+,Ghost Item,unknown,0,WH-0,2022-01-01,"bad data, should be dropped"
+204.0,LED Bulb ,electrical,1000,WH-3,2023-04-20,
